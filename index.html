@@ -1,1 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Abhishek Vajragattepalya | AI/ML Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="brand">Abhishek Vajragattepalya</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#papers">Papers</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#contact">Contact</a>
+        <a href="YOUR_RESUME_LINK.pdf" target="_blank" class="nav-icon-link">📄 Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-outdated">
+        This site was last updated in <span class="accent">2025</span>.
+      </p>
+
+      <div class="hero-avatar-wrapper">
+        <img src="img/profile.jpg" alt="Abhishek profile" class="hero-avatar" />
+      </div>
+
+      <h1 class="hero-name">Abhishek Vajragattepalya</h1>
+      <h2 class="hero-tagline">
+        Graduate Student @ VCU · AI/ML Engineer · Data & Image Analysis Enthusiast
+      </h2>
+
+      <button class="hero-button" onclick="scrollToSection('about')">
+        Enter Portfolio
+      </button>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-light">
+      <div class="about-header">
+        <!-- Optional: company / school logos row -->
+        <!-- <img src="img/logo1.png" alt="" />
+        ... -->
+      </div>
+
+      <div class="about-body">
+        <div class="about-photo">
+          <img src="img/profile.jpg" alt="Abhishek" />
+        </div>
+        <div class="about-text">
+          <h2>Abhishek Vajragattepalya</h2>
+          <h3>M.S. CS Student · AI/ML Engineer · Research-Oriented Developer</h3>
+
+          <p>
+            I'm a graduate student in Computer Science at Virginia Commonwealth University.
+            My interests include machine learning, natural language processing, computer vision,
+            and quantum computing.
+          </p>
+
+          <p>
+            I enjoy building full pipelines: from data preprocessing and modeling to deployment
+            of ML systems. My recent work includes a content-based image retrieval system in MATLAB,
+            hotel-review exploration with LangGraph, and quantum optimization experiments with QAOA.
+          </p>
+
+          <h4>Education</h4>
+          <ul>
+            <li><strong>Virginia Commonwealth University</strong> – M.S. in Computer Science (AI/ML focus)</li>
+            <li>Coursework: Advanced NLP, Machine Learning, Knowledge Discovery & Data Mining,
+                Neural Networks & Deep Learning, Software Engineering for AI-enabled Systems.</li>
+          </ul>
+
+          <div class="social-links">
+            <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+            <a href="mailto:YOUR_EMAIL@domain.com">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- “Learn more about my” buttons -->
+      <div class="learn-more">
+        <h3>Learn more about my:</h3>
+        <div class="learn-buttons">
+          <button onclick="scrollToSection('skills')">Skills</button>
+          <button onclick="scrollToSection('projects')">Projects</button>
+          <button onclick="scrollToSection('papers')">Papers</button>
+          <button onclick="scrollToSection('timeline')">Work Experience</button>
+          <a href="YOUR_RESUME_LINK.pdf" target="_blank" class="btn-dark">📄 Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-blue">
+      <div class="section-inner">
+        <h2>Skills</h2>
+        <p>Below are some of my skills, and I'm always learning more.</p>
+        <p class="muted">(This list evolves as I complete more projects and courses.)</p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🎯</div>
+            <h3>Computer Vision & Image Analysis</h3>
+            <p>
+              Experience with MATLAB, OpenCV, and classical feature engineering.
+              Built a CBIR system and implemented filters, segmentation, and feature extraction.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🧠</div>
+            <h3>Machine Learning & Deep Learning</h3>
+            <p>
+              Practical ML with scikit-learn, PyTorch, and TensorFlow; work on
+              classification, regression, and representation learning.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">☕</div>
+            <h3>Python, Java, MATLAB</h3>
+            <p>
+              Strong programming background with focus on data-heavy and scientific computing
+              applications.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <h3>Data & Cloud Tools</h3>
+            <p>
+              Pandas, NumPy, SQL, basic GCP/Vertex AI; building pipelines for training,
+              evaluation, and visualization.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>Web & AI Apps</h3>
+            <p>
+              Streamlit, LangChain/LangGraph, REST APIs; created interactive apps
+              for hotel review exploration and ML demos.
+            </p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">⚛️</div>
+            <h3>Quantum Computing (Intro)</h3>
+            <p>
+              Familiar with Qiskit, Bell states, and QAOA-based optimization from coursework
+              and assignments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-light">
+      <div class="section-inner">
+        <h2>Personal Projects</h2>
+        <p>Here are some projects I've worked on recently.</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="img/project-cbir.jpg" alt="CBIR" />
+              <div class="project-overlay">
+                <h3>Content-Based Image Retrieval</h3>
+                <p>MATLAB · Image Histograms · Similarity Search</p>
+              </div>
+            </div>
+            <p class="project-text">
+              Built a CBIR system using 6-bit color code histograms and texture features
+              to retrieve visually similar images from a dataset.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="img/project-hotel.jpg" alt="Hotel Explorer" />
+              <div class="project-overlay">
+                <h3>Hotel Explorer + AI Summarizer</h3>
+                <p>Python · LangGraph · Streamlit</p>
+              </div>
+            </div>
+            <p class="project-text">
+              Human-in-the-loop tool that summarizes hotel reviews and supports interactive
+              exploration using multiple agents and style-guided outputs.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <img src="img/project-qaoa.jpg" alt="QAOA" />
+              <div class="project-overlay">
+                <h3>QAOA for Vertex Cover</h3>
+                <p>Qiskit · Quantum Optimization</p>
+              </div>
+            </div>
+            <p class="project-text">
+              Implemented QAOA for vertex cover graphs, experimenting with depth and penalty
+              parameters and analyzing performance vs. classical baselines.
+            </p>
+          </article>
+        </div>
+
+        <div class="projects-footer">
+          <a href="https://github.com/YOUR_GITHUB" target="_blank" class="btn-dark">
+            Visit my GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAPERS -->
+    <section id="papers" class="section section-blue">
+      <div class="section-inner">
+        <h2>Papers & Reports</h2>
+        <p>Course projects and research-style reports.</p>
+
+        <div class="papers-list">
+          <div class="paper-item">
+            <h3>
+              Prototype: “Image-Based Classification for [Dataset Name]”
+            </h3>
+            <p class="paper-meta">Course: Data Mining / Image Analysis · 2025</p>
+          </div>
+
+          <div class="paper-item">
+            <h3>
+              Prototype: “Quantum-Inspired Optimization with QAOA for Small Graphs”
+            </h3>
+            <p class="paper-meta">Course: Intro to Quantum Computing · 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section id="timeline" class="section section-light">
+      <div class="section-inner">
+        <h2>Timeline</h2>
+        <p>A short summary of my academic and professional journey.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2024 – Present</div>
+              <h3>Graduate Student, VCU – Richmond, VA</h3>
+              <p>
+                Pursuing M.S. in Computer Science with focus on AI/ML, NLP, and data mining.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">2017 – 2019</div>
+              <h3>AI/ML Engineer – TechNova Analytics, Hyderabad</h3>
+              <p>
+                Worked on NLP and computer vision pipelines, deployed models, and automated
+                workflows on GCP.
+              </p>
+            </div>
+          </div>
+
+          <!-- Add more items as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <div class="section-inner">
+        <h2>Contact Me</h2>
+        <p>
+          Email: <a href="mailto:YOUR_EMAIL@domain.com">YOUR_EMAIL@domain.com</a>
+        </p>
+        <p>…or send a message using the form below.</p>
+
+        <div class="contact-grid">
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name *" required />
+            <input type="email" placeholder="Your Email *" required />
+            <input type="text" placeholder="Your Phone" />
+            <textarea placeholder="Your Message *" required></textarea>
+            <button type="submit">Send Message (demo)</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© Abhishek Vajragattepalya 2025</p>
+    <div class="footer-links">
+      <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">▲</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
