@@ -19,13 +19,14 @@ backToTopBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
-// Contact form demo (no real backend)
+// Contact form demo (no backend)
 const contactForm = document.querySelector(".contact-form");
 if (contactForm) {
   contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    alert("Thanks for your message! (Form demo only — hook this to Formspree or your backend.)");
+    alert(
+      "Thanks for your message! (This is a demo form – connect it to Formspree or your backend to make it real.)"
+    );
     contactForm.reset();
   });
 }
-
