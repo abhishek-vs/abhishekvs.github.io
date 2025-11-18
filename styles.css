@@ -68,7 +68,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  min-height: 520px;
+  min-height: 600px;
   background-image: url("img/hero-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -104,13 +104,14 @@ body {
 }
 
 .hero-avatar-wrapper {
-  width: 170px;
-  height: 170px;
+  width: 230px;          
+  height: 230px;         
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid #fff;
-  margin: 0 auto 24px auto;
+  border: 6px solid #fff;  
+  margin: 0 auto 30px auto;
 }
+
 
 .hero-avatar {
   width: 100%;
@@ -121,15 +122,17 @@ body {
 .hero-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 2.8rem;
-  margin-bottom: 10px;
+  font-size: 3.6rem;       
+  letter-spacing: 0.03em;  
+  margin-bottom: 14px;
 }
 
 .hero-tagline {
-  font-size: 1.1rem;
+  font-size: 1.3rem;       
   font-weight: 500;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
+
 
 .hero-button {
   background: #ffffff;
